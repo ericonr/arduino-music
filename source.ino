@@ -1,22 +1,21 @@
 //**************************************************
 //
-// Arduino UNO Music Player
+// Arduino Music Player
+//
+// Erico Rolim, 2017
 //
 // Nick Shvelidze, 2013
 //
 // L. Shustek, 31 Jan 2011, initial release.
 // L. Shustek, 27 Feb 2011, new score data
 //
-//**************************************************
+//**************************************************/
 
 
 #include <Playtune.h>
-
-const !!MELODY!!
+#include <name_of_song.c>
 
 Playtune pt;
-
-int val;
 
 void setup() {
   // Enable pins
